@@ -21,6 +21,7 @@ class VideoHelper {
         mediaUI.sourceType = sourceType
         mediaUI.mediaTypes = [kUTTypeMovie as String]
         mediaUI.allowsEditing = true
+        mediaUI.videoMaximumDuration = 15
         mediaUI.delegate = delegate
         delegate.present(mediaUI, animated: true, completion: nil)
     }
