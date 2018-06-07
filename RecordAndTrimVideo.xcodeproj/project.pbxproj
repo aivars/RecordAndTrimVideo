@@ -12,6 +12,7 @@
 		604C570020C7FBC600DFB33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604C56FE20C7FBC600DFB33B /* Main.storyboard */; };
 		604C570220C7FBCC00DFB33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604C570120C7FBCC00DFB33B /* Assets.xcassets */; };
 		604C570520C7FBCC00DFB33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604C570320C7FBCC00DFB33B /* LaunchScreen.storyboard */; };
+		604C570D20C8019900DFB33B /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C570C20C8019900DFB33B /* VideoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		604C570120C7FBCC00DFB33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604C570420C7FBCC00DFB33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604C570620C7FBCC00DFB33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604C570C20C8019900DFB33B /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				604C56FA20C7FBC600DFB33B /* AppDelegate.swift */,
 				604C56FC20C7FBC600DFB33B /* ViewController.swift */,
+				604C570C20C8019900DFB33B /* VideoHelper.swift */,
 				604C56FE20C7FBC600DFB33B /* Main.storyboard */,
 				604C570120C7FBCC00DFB33B /* Assets.xcassets */,
 				604C570320C7FBCC00DFB33B /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604C570D20C8019900DFB33B /* VideoHelper.swift in Sources */,
 				604C56FD20C7FBC600DFB33B /* ViewController.swift in Sources */,
 				604C56FB20C7FBC600DFB33B /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDP9QHRJQB;
 				INFOPLIST_FILE = RecordAndTrimVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDP9QHRJQB;
 				INFOPLIST_FILE = RecordAndTrimVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
